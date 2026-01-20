@@ -1,0 +1,22 @@
+{
+  "name": "devops_tutorial",
+  "version": "1.0.0",
+  "description": "Hello Brothers",
+  "main": "hello.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praneeth-grandhi/devops_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/praneeth-grandhi/devops_tutorial/issues"
+  },
+  "homepage": "https://github.com/praneeth-grandhi/devops_tutorial#readme"
+}
