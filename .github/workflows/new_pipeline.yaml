@@ -31,7 +31,7 @@ jobs:
         run: |
           echo -ne 'Connecting to satelite..\r'
           sleep 5
-          echo -ne 'Performing quantum algorithms..\r
+          echo -ne 'Performing quantum algorithms..\r'
           sleep 5
           echo -ne "The sum of 5 and 10 is ${{ 5 + 10 }}"
           sleep 1
