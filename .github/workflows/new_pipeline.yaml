@@ -29,12 +29,9 @@ jobs:
     steps:
       - name: Add two numbers
         run: |
-          echo -ne 'Connecting to satelite..\r'
+          echo -ne 'Connecting to satellite..\r'
           sleep 5
           echo -ne 'Performing quantum algorithms..\r'
           sleep 5
-          echo -ne "The sum of 5 and 10 is ${{ 5 + 10 }}"
-          sleep 1
-          echo -ne '\n'
-
-
+          sum=$((5 + 10))
+          echo "The sum of 5 and 10 is $sum"
